@@ -1,0 +1,40 @@
+html {
+	background-color: gray;
+}
+
+header {
+	text-align: center;
+}
+
+nav {
+	border-color: black;
+	border-style: dashed;
+	margin-right: 65%;
+}
+
+#picture{
+	padding-left: 45%;
+}
+
+#box1 {
+	border-right: solid;
+}
+
+.newspaper {
+	-webkit-column-count: 2; /*
+	Chrome, Safari, Opera */
+	-moz-colum-count: 2; /*
+	Firefox */
+	column-count: 2;
+  -webkit-column-gap: 40px; 
+  /* Chrome, Safari, Opera */
+	-moz-column-gap: 40px; 
+	/* Firefox */
+	column-gap: 40px;
+
+	-webkit-column-rule: 4px outset black; 
+	/* Chrome, Safari, Opera */
+	-moz-column-rule: 4px outset black; 
+	/* Firefox */
+	column-rule: 4px outset #black;
+}
